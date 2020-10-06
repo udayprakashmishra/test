@@ -12,6 +12,6 @@ public class EurekaServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaServiceApplication.class, args);
-		System.out.print("Test Jenkins ");
+		System.out.print("Test Jenkins "); 
 	}
 }
