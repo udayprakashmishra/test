@@ -10,6 +10,6 @@ job('First DSL Job') {
         maven('clean package')
     }
     publishers {
-        archiveArtifacts('**/*.war')
+        archiveArtifacts('**/*.jar')
     }
 }
